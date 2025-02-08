@@ -5,8 +5,8 @@ A Python-based tool that automatically evaluates teaching slides using OpenAI's 
 ## Description
 The Slide Evaluator analyzes teaching materials for higher education courses by:
 - Processing PDF slide decks
-- Evaluating content quality and structure
-- Assessing visual design and layout
+- Evaluating content quality and structure in line with changeable criteria
+- Assessing visual design and layout (in progress)
 - Generating detailed LaTeX reports organized by course modules
 
 The system evaluates slides based on multiple criteria including:
