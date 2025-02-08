@@ -39,7 +39,7 @@ The system evaluates slides based on multiple criteria including:
    export OPENAI_API_KEY='your-api-key-here'
    ```
 
-## Directory Structure
+## Example Directory Structure
 ```
 pdfs2to_be_evaluated/
 ├── Blockchain/
@@ -57,14 +57,14 @@ pdfs2to_be_evaluated/
    python evaluator.py
    ```
 3. Find generated reports in `pdf_reviews/`:
-   - Individual .tex files for each slide deck
-   - Complete book.tex combining all evaluations
+   - Individual .tex files (chapters) for each slide deck
+   - Complete book.tex combining all chapters 
    - Final PDF with clickable table of contents
 
 ## Output Format
 The generated report includes:
 - Title page with timestamp
-- Preface
+- Preface (editable)
 - Clickable table of contents
 - Evaluation criteria chapter
 - Module-organized content
@@ -78,7 +78,7 @@ output_folder = "/Users/yourname/path/to/pdf_reviews"
 book_path = "/Users/yourname/path/to/pdf_reviews/book.tex"
 ```
 
-## Limitations
+## Requirements & Limitations
 - Currently only processes PDF files
 - Requires active internet connection for GPT-4 API
 - Visual analysis requires good quality PDFs
