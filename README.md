@@ -28,6 +28,12 @@ The Course Material Evaluator automatically analyzes teaching materials from PDF
 - Poppler (for PDF processing)
 - Required Python packages (see `requirements.txt`)
 
+
+
+
+
+
+
 ## Installation
 
 1. Clone the repository:
