@@ -28,9 +28,15 @@ The Course Material Evaluator automatically analyzes teaching materials from PDF
 - Poppler (for PDF processing)
 - Required Python packages (see `requirements.txt`)
 
+### Code
+- evaluator.py  
+  Central script for evaluating pdf and creating a LaTeX report
 
+- debug_pdf.py
+  PDF Conversion Debug Tool
 
-
+- test_visual.py
+  Visual Analysis Test Suite 
 
 
 
