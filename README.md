@@ -1,6 +1,6 @@
-# Course Material Evaluator
+# PALMS: Pedagogical Assessment via Language Models and Statistical Analysis
+An AI-based Methodology for Automated Assessment of Educational Content
 
-An automated system for evaluating teaching materials using GPT-4, with a focus on both content and visual aspects of educational slides.
 
 ## Overview
 
