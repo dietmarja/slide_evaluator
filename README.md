@@ -1,5 +1,5 @@
 # PALMS: Pedagogical Assessment via Language Models and Statistical Analysis
-An AI-based Methodology for Automated Assessment of Educational Content
+## An AI-based Methodology for Automated Assessment of Educational Content
 
 
 ## Overview
