@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Course Material Evaluator automatically analyzes teaching materials from PDF slides, generating comprehensive LaTeX reports that assess:
+The Course Material Evaluator PALMS automatically analyzes teaching materials from PDF slides, generating comprehensive LaTeX reports that assess:
 - Content alignment with learning objectives
 - Visual design effectiveness for learning
 - Assessment and lab effectiveness
