@@ -1,49 +1,46 @@
 # PALMS: Pedagogical Assessment via Language Models and Statistical Analysis
-## An AI-based Methodology for Automated Assessment of Educational Content
 
+**PALMS** is a Python-based tool that automatically evaluates teaching slides currently using OpenAI's GPT-4 and generates comprehensive LaTeX reports. 
+It is designed to support educational institutions (VET or HE) in assessing course materials against pedagogical standards and learning objectives.
 
-## Overview
+---
 
-The Course Material Evaluator PALMS automatically analyzes teaching materials from PDF slides, generating comprehensive LaTeX reports that assess:
-- Content alignment with learning objectives
-- Visual design effectiveness for learning
-- Assessment and lab effectiveness
-- Content clarity and completeness
-- Pedagogical effectiveness
+## 📘 Description
 
-## Features
+PALMS (Pedagogical Assessment via Language Models and Statistical Analysis) analyzes teaching materials such as PDF slide decks and produces detailed LaTeX reports evaluating:
 
-- Automated content analysis using GPT-4
-- Visual element analysis of slides
-- Pedagogical effectiveness assessment
-- Module-based organization
-- LaTeX report generation with clickable table of contents
-- Batch processing of multiple PDF files
-- Comprehensive scoring system for individual slide and slide decks 
-  (lectures) averaged across all evalation criteria
-- Generation of bar and line charts for visualizing scores
+- **Content alignment** with learning outcomes
+- **Visual design** and layout effectiveness
+- **Assessment and lab** integration
+- **Pedagogical clarity**, completeness, and accuracy
+- **Student engagement** features and scaffolding
+- **Support for synchronous and asynchronous learning**
 
-## Requirements
+PALMS can optionally assess content against known standards like the **EQF** or domain-specific benchmarks, either using its pretrained knowledge or with custom criteria provided by the user.
+
+---
+
+## ✨ Features
+
+- AI-driven content evaluation using **GPT-4**
+- Batch processing of multiple PDF slide decks
+- Structured LaTeX reports with clickable Table of Contents
+- Module-level organization for large courses
+- Visual design analysis (basic image support)
+- Comprehensive **scoring system** per slide and slide deck
+- Automated generation of **bar and line charts** for score visualization
+- Customizable evaluation criteria
+
+---
+
+## 🛠 Requirements
 
 - Python 3.8+
 - OpenAI API key
 - TeX Live or similar LaTeX distribution
-- Poppler (for PDF processing)
-- Required Python packages (see `requirements.txt`)
-
-### Code
-- **evaluator.py**
-  Central script for evaluating PDFs and creating a LaTeX report
-
-- **debug_pdf.py**
-  PDF Conversion Debug Tool
-
-- **test_visual.py**
-  Visual Analysis Test Suite
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/course-evaluator.git
-cd course-evaluator
+- Poppler (for `pdf2image`)
+- Python packages (install via `requirements.txt`):
+  ```bash
+  openai>=1.0.0
+  PyPDF2>=3.0.0
+  pdf2image>=1.16.0
