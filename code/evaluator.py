@@ -3,7 +3,6 @@ from openai import OpenAI
 import os
 import re
 import logging 
-import opencv-python
 import pytesseract
 import base64
 from datetime import datetime
